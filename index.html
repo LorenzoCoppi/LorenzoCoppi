@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Portfolio di Lorenzo Coppi</title>
+<meta name="description" content="Portfolio di Lorenzo Maria Coppi, studente di Design della Comunicazione al Politecnico di Milano: prodotto, web design, branding, editoria.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2716%27 fill=%27%23181816%27/%3E%3Ctext x=%2732%27 y=%2742%27 font-family=%27Helvetica,Arial,sans-serif%27 font-size=%2728%27 font-weight=%27600%27 fill=%27%23efefed%27 text-anchor=%27middle%27%3ELC%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top" data-page="home">
+<a class="skip" href="#main" data-i18n="skip">Vai al contenuto</a>
+<header class="site-header">
+  <a class="brand" href="index.html">Lorenzo Maria Coppi<span data-i18n="city">Milano, Italia</span></a>
+  <nav class="nav" aria-label="Principale">
+    <a href="index.html" aria-current="page" data-i18n="navHome">Home</a>
+    <a href="index.html#progetti" data-i18n="navWorks">Progetti</a>
+    <a href="about.html" data-i18n="navAbout">Su di me</a>
+  </nav>
+  <div class="contacts">
+    <a href="mailto:lorenzomaria.coppi@icloud.com">Email</a>
+    <a href="assets/about/CV_Lorenzo_Maria_Coppi.pdf" target="_blank" rel="noopener">CV</a>
+    <a href="https://www.linkedin.com/in/lorenzo-coppi/" target="_blank" rel="noopener">LinkedIn</a>
+    <div class="lang" role="group" aria-label="Lingua / Language">
+      <button type="button" data-lang="it" aria-pressed="true">IT</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+  </div>
+</header>
+<main id="main">
+  <section class="hero" aria-label="Introduzione">
+    <div class="hero-bg" aria-hidden="true"><i class="b b1"></i><i class="b b2"></i><i class="b b3"></i><i class="b b4"></i><i class="b b5"></i></div>
+    <div class="hero-in">
+      <div class="side">
+        <p data-i18n="heroSide">Studente al quarto anno di Design della Comunicazione al Politecnico di Milano. Progetto dal graphic design al legno, dal codice alla modellazione 3D.</p>
+        <p class="updated small"><span data-i18n="updated">Ultimo aggiornamento</span><b>12 · 10 · 2026</b></p>
+      </div>
+      <h1 data-i18n="heroTitle">Portfolio di Lorenzo Coppi</h1>
+    </div>
+    <a class="scroll" href="#progetti"><span data-i18n="scroll">Scorri</span><i aria-hidden="true"></i></a>
+  </section>
+
+  <section id="progetti" aria-labelledby="works-title">
+    <div class="works-head">
+      <h2 id="works-title"><span data-i18n="works">Progetti</span> <span id="works-count"></span></h2>
+      <div class="filters" id="filters" role="group" aria-label="Filtra per categoria"></div>
+    </div>
+    <div class="works" id="works"></div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div><a href="mailto:lorenzomaria.coppi@icloud.com">lorenzomaria.coppi@icloud.com</a></div>
+  <div class="c">Lorenzo Maria Coppi, 2026</div>
+  <div class="r"><a href="#top" data-i18n="top">Torna su</a></div>
+</footer>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
