@@ -389,7 +389,7 @@
       },
       {
        "slug": "cameretta",
-       "title": "Cameretta su misura",
+       "title": "Camera su misura",
        "sub": "Letto, divano e armadio per due bambine",
        "cat": "Prodotto",
        "period": "2026",
